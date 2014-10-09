@@ -1,6 +1,7 @@
 @charset "utf-8";
 $font-normal:#bcbcbc;
 $bg-normal:#181a1d;
+$bg-color1:#ed4985;
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,6 @@ html {
 }
 
 body {
-  font-size: 1.4em;
   line-height: 1.5;
   color: $font-normal;
   height: 100%;
@@ -38,6 +38,7 @@ audio, canvas, progress, video {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
+
 }
 
 img {
@@ -56,7 +57,7 @@ li {
 .header{
   height: 40px;
   line-height: 40px;
-  background: #ed4985;
+  background: $bg-color1;
   overflow: hidden;
     span{
       margin: 11px 2px 0 16px;
@@ -65,14 +66,14 @@ li {
       height: 18px;
       line-height: 18px;
       text-align: center;
-      color: #ed4985;
-      font-size: 1em;
+      color: $bg-color1;
+      font-size: 1.4em;
       font-weight: bolder;
       background: #ffffff;
       border-radius: 50%;}
 }
 .header-tt{
-  font-size: 1.4em;
+  font-size: 1.8em;
   color: #ffffff;
   font-weight: bolder;
   letter-spacing: 1px;
@@ -97,9 +98,10 @@ li {
 
 .change-color{
   height: 78px;
-  background: $bg-normal url(../img/btn-up.png) center 96% no-repeat;
+  background: $bg-normal url(../img/btn-up.png) center 93% no-repeat;
   background-size: 5%;
   overflow: hidden;
+  display: none;
 }
 .color-con{
   margin-top: 14px;
@@ -132,10 +134,24 @@ li {
   }
 }
 .show-con{
+  position: relative;
   width: 100%;
-  overflow: hidden;}
+  overflow: hidden;
+}
 .change-color-begin{
   height: 40px;
   line-height: 40px;
+  font-size: 1.4em;
   color: $font-normal;
+  text-indent: 20px;
+  background: url(../img/btn-down.png) center center no-repeat;
+  background-size: 5%;
+}
+.show-con-btn{
+  position: fixed;
+  bottom:12px;
+  width: 96%;
+  height: 55px;
+  background: $bg-color1;
+  border: 0 none;
 }
