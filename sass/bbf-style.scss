@@ -1,5 +1,5 @@
 @charset "utf-8";
-$font-normal:#333;
+$font-normal:#bcbcbc;
 $bg-normal:#181a1d;
 * {
   margin: 0;
@@ -93,4 +93,49 @@ li {
 .index-wrap{
   width: 100%;
   overflow: hidden;
+}
+
+.change-color{
+  height: 78px;
+  background: $bg-normal url(../img/btn-up.png) center 96% no-repeat;
+  background-size: 5%;
+  overflow: hidden;
+}
+.color-con{
+  margin-top: 14px;
+  overflow: hidden;
+  li{
+    margin: 0 2.1875%;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid #cfcfcf;
+      &:nth-of-type(1){
+        background: #ffffff;
+      }
+      &:nth-of-type(2){
+        background: #000;
+      }
+      &:nth-of-type(3){
+        background: #ffdf61;
+      }
+      &:nth-of-type(4){
+        background: #fe4c71;
+      }
+      &:nth-of-type(5){
+        background: #09ffa5;
+      }
+      &:nth-of-type(6){
+        background: #07edea;
+      }
+  }
+}
+.show-con{
+  width: 100%;
+  overflow: hidden;}
+.change-color-begin{
+  height: 40px;
+  line-height: 40px;
+  color: $font-normal;
 }
