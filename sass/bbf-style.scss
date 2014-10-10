@@ -3,6 +3,11 @@ $font-normal:#999;
 $font-tt:#dcdcdc;
 $bg-normal:#181a1d;
 $bg-color-red:#ed4985;
+%wrap{
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -173,11 +178,19 @@ li {
       font-size: 1.4em;
       overflow: hidden;
     }
-    .right-sj{
+    .left-slogo{
       margin: 4px 10px 0 0;
       width: 10px;
       height: 12px;
       background:  url(../img/right-sj.png) 0 0 no-repeat;
+      background-size: 100%;
+      float: left;
+    }
+    .left-slogo2{
+      margin: 4px 10px 0 0;
+      width: 10px;
+      height: 12px;
+      background:  url(../img/right-sj2.png) 0 0 no-repeat;
       background-size: 100%;
       float: left;
     }
@@ -193,9 +206,7 @@ li {
   color: #000000;
 }
 .appointment-btn-wrap{
-  margin: 0 auto;
-  width: 90%;
-  overflow: hidden;
+  @extend %wrap;
 }
 .appointment-btn-left,
 .appointment-btn-right{
@@ -205,6 +216,7 @@ li {
   text-align: center;
   border-radius: 5px;
   font-size: 1.6em;
+  cursor: pointer;
 }
 .appointment-btn-left{
   float: left;
@@ -228,8 +240,13 @@ li {
     vertical-align: top;
     display: inline-block;}
 }
+.read-more-wrap{
+  @extend %wrap;
+}
 .read-more{
+  margin-bottom: 20px;
   color: $font-tt;
+  cursor: pointer;
   display: block;}
 .read-more-down{
   margin-left: 13px;
@@ -239,5 +256,22 @@ li {
   background-size: 100%;
   display: inline-block;
 }
+.read-more-up{
+  margin-left: 13px;
+  width: 14px;
+  height: 8px;
+  background: url(../img/btn-up.png) 0 0 no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
 .read-more-info{
-  display: none;}
+  display: none;
+}
+
+.pay-select-number-wrap{
+  padding: 20px 0;
+  @extend %wrap;
+}
+.wz{
+  width: 90%;
+  display: inline-block;}
