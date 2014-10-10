@@ -149,9 +149,13 @@ li {
 }
 .show-con-btn{
   position: fixed;
+  left: 2%;
   bottom:12px;
   width: 96%;
   height: 55px;
+  line-height: 55px;
+  font-size: 18em;
   background: $bg-color1;
   border: 0 none;
+  text-align: center;
 }
