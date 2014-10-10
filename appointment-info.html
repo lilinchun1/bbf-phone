@@ -31,8 +31,13 @@
             得到陈冠希签名珍藏版BOBO BEAR
         </p>
         <p>
-            <em class="read-more">展开规则详情介绍</em>
-            <i class="read-more-info">
+            <em class="read-more" id="j-tt">
+                展开规则详情介绍
+                <span class="read-more-down"></span>
+            </em>
+            <i class="read-more-info" id="j-info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi cumque excepturi modi nobis perferendis placeat reprehenderit! Commodi culpa earum eos illum nesciunt! Alias esse iusto non perferendis porro quasi.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi cumque excepturi modi nobis perferendis placeat reprehenderit! Commodi culpa earum eos illum nesciunt! Alias esse iusto non perferendis porro quasi.
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi cumque excepturi modi nobis perferendis placeat reprehenderit! Commodi culpa earum eos illum nesciunt! Alias esse iusto non perferendis porro quasi.
             </i>
         </p>
@@ -62,5 +67,29 @@
         </div>
     </section>
 </div>
+<script>
+    window.onload = function () {
+
+        var $ = function (_id) {
+            return document.getElementById(_id);
+        };
+        var oTt = $("j-tt");
+        var oInfo = $("j-info");
+        oInfo.num = 0;
+        oTt.onclick = function () {
+            if(oInfo.num % 2 == 0){
+                oInfo.style.display = "block";
+                oInfo.num += 1;
+            }else{
+                oInfo.style.display = "none";
+                oInfo.num += 1;
+            }
+        };
+        oInfo.onclick = function () {
+            oInfo.style.display = "none";
+            oInfo.num += 1;
+        }
+    }
+</script>
 </body>
 </html>

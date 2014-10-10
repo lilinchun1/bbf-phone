@@ -228,3 +228,16 @@ li {
     vertical-align: top;
     display: inline-block;}
 }
+.read-more{
+  color: $font-tt;
+  display: block;}
+.read-more-down{
+  margin-left: 13px;
+  width: 14px;
+  height: 8px;
+  background: url(../img/btn-down.png) 0 0 no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+.read-more-info{
+  display: none;}
