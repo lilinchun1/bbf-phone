@@ -11,10 +11,10 @@
 </head>
 <body>
 <div class="wrap-box">
-    <div class="change-color-begin">
+    <div class="change-color-begin" id="j-begin">
         选择颜色
     </div>
-    <div class="change-color">
+    <div class="change-color" id="j-end">
         <ul class="color-con">
             <li></li>
             <li></li>
@@ -29,5 +29,29 @@
         <div class="show-con-btn">￥99预付抢订</div>
     </section>
 </div>
+<script>
+window.onload = function () {
+
+    var $ = function (_id) {
+        return document.getElementById(_id);
+    };
+    $("j-begin").onclick = function (e) {
+
+        $("j-end").style.display = "block";
+        this.style.display = "none";
+        e = window.event || e;
+        e.stopPropagation ? (e.stopPropagation()) : (e.cancelBubble = true);
+
+    };
+    $("j-end").onclick = function (e) {
+
+        $("j-begin").style.display = "block";
+        this.style.display = "none";
+        e = window.event || e;
+        e.stopPropagation ? (e.stopPropagation()) : (e.cancelBubble = true);
+
+    }
+}
+</script>
 </body>
 </html>
