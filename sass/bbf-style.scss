@@ -164,12 +164,22 @@ li {
 }
 
 .appointment-wrap{
+  padding: 20px 0;
   width: 100%;
   overflow: hidden;
     p{
-      margin: 0 auto;
-      width: 96%;
+      margin: 0 auto 20px auto;
+      width: 90%;
       font-size: 1.4em;
+      overflow: hidden;
+    }
+    .right-sj{
+      margin: 4px 10px 0 0;
+      width: 10px;
+      height: 12px;
+      background:  url(../img/right-sj.png) 0 0 no-repeat;
+      background-size: 100%;
+      float: left;
     }
 }
 .point-font{
@@ -180,19 +190,41 @@ li {
   line-height: 28px;
   display: inline-block;
   background-color: #deff00;
+  color: #000000;
 }
 .appointment-btn-wrap{
   margin: 0 auto;
-  width: 96%;
+  width: 90%;
   overflow: hidden;
 }
 .appointment-btn-left,
 .appointment-btn-right{
-
+  width: 44.6875%;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.6em;
 }
 .appointment-btn-left{
   float: left;
+  color: #333333;
+  background: #e3e3e3;
+    i{
+      margin: 3px 6px 0 0;
+      width: 20px;
+      height: 20px;
+      vertical-align: top;
+      display: inline-block;}
 }
 .appointment-btn-right{
   float: right;
+  color: #ffffff;
+  background: $bg-color-red;
+  i{
+    margin: 3px 6px 0 0;
+    width: 24px;
+    height: 20px;
+    vertical-align: top;
+    display: inline-block;}
 }
