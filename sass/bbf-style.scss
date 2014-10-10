@@ -181,3 +181,18 @@ li {
   display: inline-block;
   background-color: #deff00;
 }
+.appointment-btn-wrap{
+  margin: 0 auto;
+  width: 96%;
+  overflow: hidden;
+}
+.appointment-btn-left,
+.appointment-btn-right{
+
+}
+.appointment-btn-left{
+  float: left;
+}
+.appointment-btn-right{
+  float: right;
+}
