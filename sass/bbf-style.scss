@@ -77,6 +77,21 @@ li {
 .fr{
   float: right;
 }
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+  zoom: 1;
+}
+
 /*粉红色文字*/
 .point-font {
   color: $bg-color-red;
@@ -516,10 +531,11 @@ li {
 .pay-btns{
   margin-top: 25px;
   width: 100%;
-  overflow: hidden;}
+}
 .wx-btn,
 .zfb-btn{
-  width: 35%;
+  margin-top: 24px;
+  width: 34%;
   height: 30px;
   border: 2px solid #fff;
   border-radius: 30px;
@@ -528,4 +544,47 @@ li {
   -webkit-appearance: none;
   appearance: none;
   font-size: 1.5em;
+}
+.show-money-wrap{
+  position: relative;
+  float: left;
+  width: 32%;
+}
+.show-money-con{
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+  border: 5px solid $bg-color-red;
+  border-radius: 50%;
+}
+.show-money-bdr {
+  width: 66px;
+  height: 66px;
+  line-height: 66px;
+  font-size: 2.5em;
+  color: #ffffff;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.show-money-logo1{
+  position: absolute;
+  top: -5px;
+  right: 6px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #ffffff;
+  background: $bg-color-red;
+  border-radius: 50%;
+}
+.show-money-logo2 {
+  position: absolute;
+  top: 12px;
+  left: 26px;
+  width: 8px;
+  color: #ffffff;
+  font-size: 1.6em;
 }
