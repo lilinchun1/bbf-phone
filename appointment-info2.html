@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <title>BBF</title>
+    <link rel="stylesheet" href="css/bbf-style.css"/>
+</head>
+<body>
+<div class="wrap-box">
+    <section class="appointment-info2-wrap">
+        <h1 class="app-info2-tt">
+            <img src="img/info-tt.jpg" alt=""/>
+        </h1>
+        <ul class="app-info-list">
+            <li>预约截止日期 2014-12-01</li>
+            <li>先支付预约金￥99  </li>
+            <li>在预约有效期内补交尾款 ￥799</li>
+            <li>支付完成后，2014-12-01统一发货</li>
+            <li class="yuyue-info2" id="j-tt">
+                查看预约详则
+                <span class="read-more-down"></span>
+            </li>
+        </ul>
+        <dl class="appointment-wrap read-more-wrap">
+            <dd class="read-more-info" id="j-info">
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+                <p>
+                    <span class="left-slogo2"></span>
+                    <i class="wz">
+                        选择送朋友，当预约成功后需要朋友填写
+                        地址或者自己帮助朋友填写地址
+                    </i>
+                </p>
+            </dd>
+        </dl>
+        <div class="app-info2-btns">
+            <div class="div-sjx"></div>
+            <button type="button" class="info2-left-btn">送朋友</button>
+            <button type="button" class="info2-right-btn">送自己</button>
+        </div>
+    </section>
+</div>
+<script>
+    window.onload = function () {
+
+        var $ = function (_id) {
+            return document.getElementById(_id);
+        };
+        var oTt = $("j-tt");
+        var oInfo = $("j-info");
+        console.log(oTt.innerText);
+        oInfo.num = 0;
+        oTt.onclick = function (e) {
+            if(oInfo.num % 2 == 0){
+                oInfo.style.display = "block";
+                oTt.innerHTML = "收起预约详情 <span class= 'read-more-up'></span>";
+                oInfo.num += 1;
+            }else{
+                oInfo.style.display = "none";
+                oTt.innerHTML = "展开预约详情 <span class= 'read-more-down'></span>";
+                oInfo.num += 1;
+            }
+            e.stopPropagation()
+        };
+        oInfo.onclick = function (e) {
+            oInfo.style.display = "none";
+            oTt.innerHTML = "展开预约详情 <span class= 'read-more-down'></span>";
+            oInfo.num += 1;
+            e.stopPropagation()
+        }
+    }
+</script>
+</body>
+</html>
