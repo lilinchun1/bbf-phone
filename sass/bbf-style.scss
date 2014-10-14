@@ -11,6 +11,7 @@ $color-3:#742e49;
 $color-4:#8c7c0e;
 $color-5:#0072ff;
 $color-6:#591f88;
+$color-7:#fa7d42;
 %wrap{
   margin: 0 auto;
   width: 90%;
@@ -99,6 +100,10 @@ li {
 /*蓝色文字*/
 .point-font2{
   color: $color-blue;
+}
+/*橘色文字*/
+.point-font3{
+  color: $color-7;
 }
 /*下边距10*/
 .mgb10{
@@ -681,4 +686,75 @@ li {
       border: 15px solid transparent;
       border-bottom: 15px solid #181a1d;
     }
+}
+.succeed-friend-wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.succeed-friend-con{
+  padding: 0 8%;
+  position: relative;
+  top: 50%;
+  margin-top: -125px;
+  height: 250px;
+  background: rgba(0,0,0,.55);
+  text-align: center;
+  overflow: hidden;
+    h1{
+      margin: 10px 0;
+      color: $color-7;
+      font-size: 2.3em;
+    }
+    p{
+      margin-bottom: 22px;
+      color: #ffffff;
+      font-size: 1.5em;
+    }
+}
+.succeed-friend-btn1,
+.succeed-friend-btn2{
+  margin-bottom: 18px;
+  width: 60%;
+  height: 36px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  font-size: 1.6em;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.succeed-friend-btn1{
+  background: #e0e0e0;
+  color: #333333;
+}
+.succeed-friend-btn2{
+  background-color: transparent;
+  color: #ffffff;
+}
+.succeed-friend-con2{
+  padding: 20px 8%;
+  position: relative;
+  top: 10%;
+  height: 40px;
+  background: rgba(0,0,0,.55);
+  text-align: center;
+
+    p{
+      font-size: 1.4em;
+      color: #ffffff;
+    }
+    .jiantou{
+      position: absolute;
+      top: -26px;
+      right: 32px;
+      width: 32px;
+      height: 32px;
+    }
+}
+.succeed-oneself{
+  p{
+    margin-bottom: 18px;}
 }
