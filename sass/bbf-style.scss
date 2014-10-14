@@ -759,3 +759,55 @@ li {
   p{
     margin-bottom: 18px;}
 }
+.login-srap{
+  @extend %wrap;
+}
+.login-tt{
+  margin-bottom: 44px;
+  height: 130px;
+  line-height: 130px;
+  color: #ffffff;
+  font-size: 4.7em;
+  font-weight: bold;
+  border-bottom: 1px solid #3c3d40;
+    span{
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      border-radius: 50%;
+      display: inline-block;
+      background: #ffffff;
+      text-align: center;
+      color: #000000;
+      font-weight: bold;
+    }
+}
+.login-input1,
+.login-input2{
+  margin-bottom: 14px;
+  border: 1px solid #3c3d40;
+  background: #000000;
+  border-radius: 30px;
+}
+.login-input1{
+  width: 98%;
+}
+.login-input2{
+  width: 70%;
+}
+.forget{
+  padding-left: 3px;}
+.login-btn {
+  width: 60%;
+  height: 36px;
+  line-height: 36px;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 1.6em;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
