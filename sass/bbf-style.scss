@@ -814,3 +814,93 @@ li {
 .login-ckbox{
 
 }
+
+.menu-wrap {
+  width: 240px;
+  overflow: hidden;
+}
+.menu-login {
+  height: 180px;
+  background: #212121;
+  overflow: hidden;
+  h2 {
+    margin-top: 20px;
+    font-size: 3em;
+    color: #ffffff;
+    text-indent: 23px;
+    font-weight: bold;
+  }
+  p{
+    margin-top: 34px;
+    height: 32px;
+    line-height: 32px;
+      a{
+        color: #ffffff;
+        font-size: 1.2em;}
+  }
+  .menu-login-btn{
+    margin: 0 24px 0 23px;
+    width: 104px;
+    height: 32px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 1.4em;
+    color: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+.menu-list{
+  position: relative;
+  border-top: 1px solid #464646;
+  background: #131517;
+    .menu-list-sjx{
+      left: 20%;
+    }
+    li{
+      height: 72px;
+      line-height: 72px;
+      text-indent: 50px;
+      border: 1px solid #181a1d;
+        a{
+          height: 72px;
+          display: block;
+          color: #b9b9b9;
+          font-size: 13px;
+        }
+        &:nth-of-type(1){
+          background: image-url('logo-1.png') 15px 50% no-repeat;
+          background-size: 10%;
+        }
+        &:nth-of-type(2){
+          background: image-url('logo-2.png') 15px 50% no-repeat;
+          background-size: 10%;
+        }
+        &:nth-of-type(3){
+          background: image-url('logo-3.png') 15px 50% no-repeat;
+          background-size: 10%;
+        }
+    }
+}
+.login-pic{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background: #000000;
+  overflow: hidden;
+    .login-pic-con {
+      margin: 8px 0 0 8px;
+      width: 66px;
+      height: 66px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      overflow: hidden;
+        img{
+          width: 100%;
+        }
+    }
+}
