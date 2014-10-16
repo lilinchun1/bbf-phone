@@ -12,6 +12,7 @@ $color-4:#8c7c0e;
 $color-5:#0072ff;
 $color-6:#591f88;
 $color-7:#fa7d42;
+$bds:#3c3d40;
 %wrap{
   margin: 0 auto;
   width: 90%;
@@ -21,8 +22,8 @@ $color-7:#fa7d42;
   width: 99.4%;
   min-height: 40px;
   border-radius: 30px;
-  background: #292a2c;
-  border: 2px solid #0b0c0d;
+  background: #000;
+  border: 1px solid $bds;
   overflow: hidden;
 }
 * {
@@ -521,8 +522,9 @@ li {
   appearance: none;
 }
 .address-btn{
-  margin: 24px 0;
-  width: 100%;
+  margin: 24px auto;
+  display: block;
+  width: 60%;
   height: 42px;
   line-height: 42px;
   font-size: 2em;
@@ -642,7 +644,8 @@ li {
 .app-info2-btns{
   position: relative;
   margin: 60px auto 0 auto;
-  @extend %wrap;
+  width: 100%;
+  overflow: hidden;
   overflow: visible;
   height: 78px;
   background: #181a1d;
@@ -664,9 +667,12 @@ li {
     }
     .info2-left-btn {
       float: left;
+      margin-left: 3%;
     }
     .info2-right-btn{
-      float: right;}
+      float: right;
+      margin-right: 3%;
+    }
 }
 .div-sjx{
   position: absolute;
@@ -769,7 +775,7 @@ li {
   color: #ffffff;
   font-size: 4.7em;
   font-weight: bold;
-  border-bottom: 1px solid #3c3d40;
+  border-bottom: 1px solid $bds;
     span{
       width: 60px;
       height: 60px;
@@ -785,7 +791,7 @@ li {
 .login-input1,
 .login-input2{
   margin-bottom: 14px;
-  border: 1px solid #3c3d40;
+  border: 1px solid $bds;
   background: #000000;
   border-radius: 30px;
 }
