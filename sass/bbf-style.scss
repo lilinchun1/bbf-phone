@@ -798,6 +798,7 @@ li {
 .forget{
   padding-left: 3px;}
 .login-btn {
+  float: left;
   width: 60%;
   height: 36px;
   line-height: 36px;
@@ -811,13 +812,30 @@ li {
   -moz-appearance: none;
   appearance: none;
 }
-.login-ckbox{
-
+input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: image-url("unchecked.png") 0 0 no-repeat;
+  background-size: 100%;
 }
-
+input[type="checkbox"]:checked {
+  background: image-url("checked.png") 0 0 no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
 .menu-wrap {
   width: 240px;
   overflow: hidden;
+}
+.login-ckbox{
+  margin: 7px 8px 0 17px;
+  float: left;
+}
+.ck-lab{
+  line-height: 35px;
 }
 .menu-login {
   height: 180px;
