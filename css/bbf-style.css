@@ -1,12 +1,12 @@
 @charset "UTF-8";
 /* line 16, ../sass/bbf-style.scss */
-.appointment-btn-wrap, .read-more-wrap, .pay-select-number-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap {
+.appointment-btn-wrap, .read-more-wrap, .pay-select-number-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap, .register-wrap {
   margin: 0 auto;
   width: 90%;
   overflow: hidden; }
 
 /* line 21, ../sass/bbf-style.scss */
-.select-wrap, .input-wrap, .textarea-wrap {
+.select-wrap, .input-wrap, .textarea-wrap, .register-input {
   width: 99.4%;
   min-height: 40px;
   border-radius: 30px;
@@ -18,7 +18,7 @@
 .address-btn, .wx-btn,
 .zfb-btn, .app-info2-btns .info2-left-btn,
 .app-info2-btns .info2-right-btn, .succeed-friend-btn1,
-.succeed-friend-btn2, .login-btn, .menu-login .menu-login-btn, .pay-btn {
+.succeed-friend-btn2, .login-btn, .menu-login .menu-login-btn, .pay-btn, .register-phone-btn {
   border: 2px solid #fff;
   border-radius: 30px;
   color: #ffffff;
@@ -1060,5 +1060,104 @@ input[type="checkbox"]:checked {
 /* line 1026, ../sass/bbf-style.scss */
 .gift-info-con-item2.receive-info {
   border-bottom: 0 none; }
+
+/* line 1032, ../sass/bbf-style.scss */
+.register-tt {
+  border-bottom: 1px solid #3c3d40;
+  height: 130px;
+  line-height: 130px;
+  font-size: 2em;
+  color: #ffffff; }
+  /* line 1038, ../sass/bbf-style.scss */
+  .register-tt span {
+    margin: 0 3px 0 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 50%;
+    background: #ffffff;
+    display: inline-block; }
+  /* line 1051, ../sass/bbf-style.scss */
+  .register-tt b {
+    padding-right: 3px; }
+
+/* line 1055, ../sass/bbf-style.scss */
+.register-phone {
+  position: relative; }
+  /* line 1057, ../sass/bbf-style.scss */
+  .register-phone .register-phone-msg {
+    padding: 12px 0;
+    font-size: 1.2em;
+    text-indent: 1em; }
+  /* line 1062, ../sass/bbf-style.scss */
+  .register-phone .reset-time {
+    margin-top: 36px;
+    font-size: 1.2em;
+    text-indent: 1em; }
+    /* line 1066, ../sass/bbf-style.scss */
+    .register-phone .reset-time span {
+      color: #ffffff; }
+
+/* line 1071, ../sass/bbf-style.scss */
+.register-input {
+  margin: 44px auto;
+  height: 34px;
+  text-indent: 1em;
+  display: block; }
+
+/* line 1078, ../sass/bbf-style.scss */
+.yes {
+  background: url('../img/checked.png?1413467381') 90% 50% no-repeat;
+  background-size: 8%; }
+
+/* line 1082, ../sass/bbf-style.scss */
+.register-phone-btn {
+  width: 70%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1.6em; }
+
+/* line 1089, ../sass/bbf-style.scss */
+.register-input2 {
+  margin-top: 0; }
+
+/* line 1092, ../sass/bbf-style.scss */
+.register-input3 {
+  margin-bottom: 14px; }
+
+/* line 1096, ../sass/bbf-style.scss */
+.register-succeed {
+  padding: 30px 0 35px 0; }
+  /* line 1098, ../sass/bbf-style.scss */
+  .register-succeed p {
+    margin-bottom: 18px;
+    font-size: 1.4em;
+    color: #ffffff; }
+    /* line 1102, ../sass/bbf-style.scss */
+    .register-succeed p:nth-of-type(2) {
+      margin-top: -20px;
+      font-size: 2.1em; }
+  /* line 1107, ../sass/bbf-style.scss */
+  .register-succeed em {
+    font-size: 4em;
+    font-weight: bold; }
+  /* line 1111, ../sass/bbf-style.scss */
+  .register-succeed .faq {
+    width: 65%;
+    height: 27px;
+    line-height: 27px;
+    color: #ffffff;
+    font-size: 1.4em;
+    text-indent: 1em;
+    background: #622a41 url('../img/right-logo.png?1413591210') 90% 50% no-repeat;
+    background-size: 5%; }
+
+/* line 1122, ../sass/bbf-style.scss */
+.register-two-btn {
+  margin-top: 0; }
 
 /*@ sourceMappingURL=bbf-style.css.map */

@@ -1026,3 +1026,99 @@ input[type="checkbox"]:checked {
 .gift-info-con-item2.receive-info{
   border-bottom: 0 none;
 }
+.register-wrap{
+  @extend %wrap;
+}
+.register-tt{
+  border-bottom: 1px solid $bds;
+  height: 130px;
+  line-height: 130px;
+  font-size: 2em;
+  color: #ffffff;
+    span{
+      margin: 0 3px 0 5px;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      font-size: 1em;
+      font-weight: bold;
+      border-radius: 50%;
+      background: #ffffff;
+      display: inline-block;
+    }
+    b{
+      padding-right: 3px;
+    }
+}
+.register-phone{
+  position: relative;
+  .register-phone-msg{
+    padding: 12px 0;
+    font-size: 1.2em;
+    text-indent: 1em;
+  }
+  .reset-time{
+    margin-top: 36px;
+    font-size: 1.2em;
+    text-indent: 1em;
+    span{
+        color: #ffffff;
+      }
+  }
+}
+.register-input{
+  margin: 44px auto;
+  height: 34px;
+  @extend %input-wrap;
+  text-indent: 1em;
+  display: block;
+}
+.yes{
+  background:  image-url("checked.png") 90% 50% no-repeat;
+  background-size: 8%;
+}
+.register-phone-btn{
+  @extend %btns;
+  width: 70%;
+  height: 36px;
+  line-height: 36px;
+  font-size: 1.6em;
+}
+.register-input2{
+  margin-top: 0;
+}
+.register-input3{
+  margin-bottom: 14px;
+}
+
+.register-succeed{
+  padding: 30px 0 35px 0;
+    p{
+      margin-bottom: 18px;
+      font-size: 1.4em;
+      color: #ffffff;
+        &:nth-of-type(2){
+          margin-top: -20px;
+          font-size: 2.1em;
+        }
+    }
+    em{
+      font-size: 4em;
+      font-weight: bold;
+    }
+    .faq {
+      width: 65%;
+      height: 27px;
+      line-height: 27px;
+      color: #ffffff;
+      font-size: 1.4em;
+      text-indent: 1em;
+      background: #622a41 image-url("right-logo.png") 90% 50% no-repeat;
+      background-size: 5%;
+    }
+}
+.register-two-btn{
+  margin-top: 0;
+}
