@@ -26,6 +26,16 @@ $bds:#3c3d40;
   border: 1px solid $bds;
   overflow: hidden;
 }
+%btns {
+  border: 2px solid #fff;
+  border-radius: 30px;
+  color: #ffffff;
+  background: transparent;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 /*粉红色文字*/
 .point-font {
   color: $bg-color-red;
@@ -530,13 +540,8 @@ li {
   height: 42px;
   line-height: 42px;
   font-size: 2em;
-  color: #ffffff;
   font-family:  "Helvetica Neue", Helvetica,"Microsoft Yahei", STHeiTi, Arial, sans-serif;
-  border: 2px #fff solid;
-  border-radius: 30px;
-  background: transparent;
-  -webkit-appearance: none;
-  appearance: none;
+  @extend %btns;
 }
 .pay-btns{
   margin-top: 25px;
@@ -547,12 +552,7 @@ li {
   margin-top: 24px;
   width: 34%;
   height: 30px;
-  border: 2px solid #fff;
-  border-radius: 30px;
-  background: transparent;
-  color: #ffffff;
-  -webkit-appearance: none;
-  appearance: none;
+  @extend %btns;
   font-size: 1.5em;
 }
 .show-money-wrap{
@@ -657,15 +657,8 @@ li {
       margin-top: 18px;
       width: 44.6875%;
       height: 36px;
-      border: 2px solid #fff;
-      background: transparent;
-      border-radius: 30px;
-      color: #ffffff;
       font-size: 1.5em;
-      cursor: pointer;
-      -webkit-appearance: none;
-      -moz-appearance: none;
-      appearance: none;
+      @extend %btns;
     }
     .info2-left-btn {
       float: left;
@@ -727,13 +720,8 @@ li {
   margin-bottom: 18px;
   width: 60%;
   height: 36px;
-  border: 2px solid #ffffff;
-  border-radius: 30px;
   font-size: 1.6em;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  @extend %btns;
 }
 .succeed-friend-btn1{
   background: #e0e0e0;
@@ -810,15 +798,9 @@ li {
   width: 60%;
   height: 36px;
   line-height: 36px;
-  color: #ffffff;
-  border-radius: 30px;
+  @extend %btns;
   border: 1px solid #fff;
-  background-color: transparent;
   font-size: 1.6em;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 input[type="checkbox"]{
   width: 20px;
@@ -868,15 +850,8 @@ input[type="checkbox"]:checked {
     margin: 0 24px 0 23px;
     width: 104px;
     height: 32px;
-    border: 2px solid #fff;
-    border-radius: 30px;
-    background-color: transparent;
+    @extend %btns;
     font-size: 1.4em;
-    color: #ffffff;
-    cursor: pointer;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
   }
 }
 
@@ -983,4 +958,68 @@ input[type="checkbox"]:checked {
     background: image-url("right-logo.png") 0 0 no-repeat;
     background-size: 100%;
   }
+}
+
+.gift-info-con-wrap{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  @extend %wrap;
+    .pay-wk{
+      margin: 15px 0;
+      text-align: right;
+      color: #ffffff;
+      font-size: 1.6em;
+        span{
+          font-size: 1.2em;
+        }
+    }
+}
+.gift-info-con-item{
+  padding-bottom: 20px;
+  border-bottom: 1px solid $bds;
+  overflow: hidden;
+    .gift-item-pic{
+      margin-right: 22px;
+      float: left;
+      width: 118px;
+      height: 80px;
+    }
+    h1{
+      font-size: 1.8em;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    p{
+      font-size: 1.4em;
+        &:nth-of-type(2n){
+          margin-top: 15px;
+        }
+    }
+}
+.gift-info-con-item2{
+  padding: 15px 0;
+  border-bottom: 1px solid $bds;
+    p {
+      margin-bottom: 8px;
+      font-size: 1.4em;
+      overflow: hidden;
+    }
+    i{
+      width: 70%;
+      float: right;
+      text-align: right;
+    }
+    .change-address-a{
+      float: right;
+      color: #ffffff;
+    }
+}
+
+.pay-btn{
+  margin: 0 auto;
+  width: 70%;
+  height: 36px;
+  @extend %btns;
+  display: block;
+  font-size: 1.6em;
 }
