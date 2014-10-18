@@ -1160,4 +1160,31 @@ input[type="checkbox"]:checked {
 .register-two-btn {
   margin-top: 0; }
 
+/* line 1125, ../sass/bbf-style.scss */
+.address-succeed {
+  height: 132px;
+  line-height: 180px;
+  text-indent: 5px;
+  color: #ffffff;
+  font-size: 2.1em;
+  border-bottom: 1px solid #3c3d40;
+  background: url('../img/red-logo.png?1413621212') 5px 14% no-repeat;
+  background-size: 40%; }
+
+/* line 1135, ../sass/bbf-style.scss */
+.app-info-list2 {
+  margin-top: 30px; }
+  /* line 1138, ../sass/bbf-style.scss */
+  .app-info-list2 li:nth-of-type(1) {
+    width: 60%; }
+  /* line 1141, ../sass/bbf-style.scss */
+  .app-info-list2 li:nth-of-type(2) {
+    width: 90%; }
+  /* line 1144, ../sass/bbf-style.scss */
+  .app-info-list2 li:nth-of-type(3) {
+    width: 95%; }
+  /* line 1147, ../sass/bbf-style.scss */
+  .app-info-list2 li:nth-of-type(4) {
+    width: 100%; }
+
 /*@ sourceMappingURL=bbf-style.css.map */
