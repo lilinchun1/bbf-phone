@@ -1051,10 +1051,14 @@ input[type="checkbox"]:checked {
 
 /* line 1018, ../sass/bbf-style.scss */
 .pay-btn {
-  margin: 0 auto;
+  margin: 30px auto;
   width: 70%;
   height: 36px;
   display: block;
   font-size: 1.6em; }
+
+/* line 1026, ../sass/bbf-style.scss */
+.gift-info-con-item2.receive-info {
+  border-bottom: 0 none; }
 
 /*@ sourceMappingURL=bbf-style.css.map */
