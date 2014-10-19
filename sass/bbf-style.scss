@@ -336,7 +336,9 @@ li {
 
 .pay-select-number-wrap{
   padding: 20px 0;
-  @extend %wrap;
+  margin: 0 auto;
+  width: 93.75%;
+  overflow: hidden;
     p{
       margin-bottom: 15px;
       color: $font-normal2;
@@ -375,6 +377,7 @@ li {
       text-align: center;
       font-size: 3em;
       color: $font-tt;
+      background: #292a2c;
     }
     .addition {
       border-bottom: 1px solid #343539;
