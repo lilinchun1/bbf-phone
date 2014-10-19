@@ -1073,6 +1073,7 @@ input[type="checkbox"]:checked {
   height: 34px;
   @extend %input-wrap;
   text-indent: 1em;
+  font-size: 1.4em;
   display: block;
 }
 .yes{
@@ -1083,7 +1084,7 @@ input[type="checkbox"]:checked {
   @extend %btns;
   width: 70%;
   height: 36px;
-  line-height: 36px;
+//  line-height: 36px;
   font-size: 1.6em;
 }
 .register-input2{
