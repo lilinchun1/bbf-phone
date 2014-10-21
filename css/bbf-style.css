@@ -63,14 +63,14 @@ html {
 /* line 67, ../sass/bbf-style.scss */
 body {
   line-height: 1.5;
-  color: #999999;
+  color: #999;
   height: 100%;
   background: #181a1d;
   -webkit-overflow-scrolling: touch; }
 
 /* line 75, ../sass/bbf-style.scss */
 a {
-  color: #999999;
+  color: #999;
   text-decoration: none; }
 
 /* line 80, ../sass/bbf-style.scss */
@@ -219,7 +219,7 @@ li {
   height: 40px;
   line-height: 40px;
   font-size: 1.4em;
-  color: gainsboro;
+  color: #dcdcdc;
   text-indent: 20px;
   background: url(../img/btn-down.png) center center no-repeat;
   background-size: 5%; }
@@ -317,7 +317,7 @@ li {
 /* line 312, ../sass/bbf-style.scss */
 .read-more {
   margin-bottom: 20px;
-  color: gainsboro;
+  color: #dcdcdc;
   cursor: pointer;
   display: block; }
 
@@ -352,7 +352,7 @@ li {
   /* line 342, ../sass/bbf-style.scss */
   .pay-select-number-wrap p {
     margin-bottom: 15px;
-    color: #666666;
+    color: #666;
     font-size: 1.4em; }
 
 /* line 348, ../sass/bbf-style.scss */
@@ -390,7 +390,7 @@ li {
     line-height: 39px;
     text-align: center;
     font-size: 3em;
-    color: gainsboro;
+    color: #dcdcdc;
     background: #292a2c; }
   /* line 382, ../sass/bbf-style.scss */
   .count .addition {
@@ -425,7 +425,7 @@ li {
   line-height: 76px;
   font-size: 8.2em;
   color: #ffffff;
-  background: black url(../img/number-bg.png) 0 0 repeat-x;
+  background: #000 url(../img/number-bg.png) 0 0 repeat-x;
   background-size: 50%;
   letter-spacing: 7px; }
   /* line 416, ../sass/bbf-style.scss */
@@ -445,7 +445,7 @@ li {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-  color: #666666; }
+  color: #666; }
 
 /* line 434, ../sass/bbf-style.scss */
 .select-wrap {
@@ -459,7 +459,7 @@ li {
     height: 40px;
     font-size: 1.4em;
     text-indent: 1em;
-    color: #999999;
+    color: #999;
     background: transparent;
     border: 0;
     border-radius: 0;
@@ -839,12 +839,12 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url('../img/unchecked.png?1413718508') 0 0 no-repeat;
+  background: url('../img/unchecked.png?1413853053') 0 0 no-repeat;
   background-size: 100%; }
 
 /* line 817, ../sass/bbf-style.scss */
 input[type="checkbox"]:checked {
-  background: url('../img/checked.png?1413718507') 0 0 no-repeat;
+  background: url('../img/checked.png?1413853053') 0 0 no-repeat;
   -webkit-background-size: 100%;
   background-size: 100%; }
 
@@ -912,15 +912,15 @@ input[type="checkbox"]:checked {
       font-size: 13px; }
     /* line 879, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(1) {
-      background: url('../img/logo-1.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-1.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
     /* line 883, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(2) {
-      background: url('../img/logo-2.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-2.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
     /* line 887, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(3) {
-      background: url('../img/logo-3.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-3.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
 
 /* line 893, ../sass/bbf-style.scss */
@@ -952,7 +952,7 @@ input[type="checkbox"]:checked {
     font-size: 1.4em; }
   /* line 919, ../sass/bbf-style.scss */
   .logistics-info-wrap time {
-    color: #999999;
+    color: #999;
     display: block; }
 
 /* line 924, ../sass/bbf-style.scss */
@@ -985,7 +985,7 @@ input[type="checkbox"]:checked {
   /* line 949, ../sass/bbf-style.scss */
   .gift-item p {
     margin-top: 8px;
-    color: #999999;
+    color: #999;
     font-size: 1.3em; }
   /* line 955, ../sass/bbf-style.scss */
   .gift-item .right-logo {
@@ -994,7 +994,7 @@ input[type="checkbox"]:checked {
     top: 72px;
     width: 10px;
     height: 16px;
-    background: url('../img/right-logo.png?1413718507') 0 0 no-repeat;
+    background: url('../img/right-logo.png?1413853053') 0 0 no-repeat;
     background-size: 100%; }
 
 /* line 966, ../sass/bbf-style.scss */
@@ -1112,44 +1112,45 @@ input[type="checkbox"]:checked {
   height: 34px;
   text-indent: 1em;
   font-size: 1.4em;
-  display: block; }
+  display: block;
+  color: #ffffff; }
 
-/* line 1082, ../sass/bbf-style.scss */
+/* line 1084, ../sass/bbf-style.scss */
 .yes {
-  background: url('../img/checked.png?1413718507') 90% 50% no-repeat;
+  background: #000 url('../img/checked.png?1413853053') 90% 50% no-repeat;
   background-size: 8%; }
 
-/* line 1086, ../sass/bbf-style.scss */
+/* line 1088, ../sass/bbf-style.scss */
 .register-phone-btn {
   width: 70%;
   height: 36px;
   font-size: 1.6em; }
 
-/* line 1093, ../sass/bbf-style.scss */
+/* line 1095, ../sass/bbf-style.scss */
 .register-input2 {
   margin-top: 0; }
 
-/* line 1096, ../sass/bbf-style.scss */
+/* line 1098, ../sass/bbf-style.scss */
 .register-input3 {
   margin-bottom: 14px; }
 
-/* line 1100, ../sass/bbf-style.scss */
+/* line 1102, ../sass/bbf-style.scss */
 .register-succeed {
   padding: 30px 0 35px 0; }
-  /* line 1102, ../sass/bbf-style.scss */
+  /* line 1104, ../sass/bbf-style.scss */
   .register-succeed p {
     margin-bottom: 18px;
     font-size: 1.4em;
     color: #ffffff; }
-    /* line 1106, ../sass/bbf-style.scss */
+    /* line 1108, ../sass/bbf-style.scss */
     .register-succeed p:nth-of-type(2) {
       margin-top: -20px;
       font-size: 2.1em; }
-  /* line 1111, ../sass/bbf-style.scss */
+  /* line 1113, ../sass/bbf-style.scss */
   .register-succeed em {
     font-size: 4em;
     font-weight: bold; }
-  /* line 1115, ../sass/bbf-style.scss */
+  /* line 1117, ../sass/bbf-style.scss */
   .register-succeed .faq {
     width: 65%;
     height: 27px;
@@ -1157,14 +1158,14 @@ input[type="checkbox"]:checked {
     color: #ffffff;
     font-size: 1.4em;
     text-indent: 1em;
-    background: #622a41 url('../img/right-logo.png?1413718507') 90% 50% no-repeat;
+    background: #622a41 url('../img/right-logo.png?1413853053') 90% 50% no-repeat;
     background-size: 5%; }
 
-/* line 1126, ../sass/bbf-style.scss */
+/* line 1128, ../sass/bbf-style.scss */
 .register-two-btn {
   margin-top: 0; }
 
-/* line 1129, ../sass/bbf-style.scss */
+/* line 1131, ../sass/bbf-style.scss */
 .address-succeed {
   height: 132px;
   line-height: 180px;
@@ -1172,41 +1173,41 @@ input[type="checkbox"]:checked {
   color: #ffffff;
   font-size: 2.1em;
   border-bottom: 1px solid #3c3d40;
-  background: url('../img/red-logo.png?1413718507') 5px 14% no-repeat;
+  background: url('../img/red-logo.png?1413853053') 5px 14% no-repeat;
   background-size: 40%; }
 
-/* line 1139, ../sass/bbf-style.scss */
+/* line 1141, ../sass/bbf-style.scss */
 .app-info-list2 {
   margin-top: 30px; }
-  /* line 1142, ../sass/bbf-style.scss */
+  /* line 1144, ../sass/bbf-style.scss */
   .app-info-list2 li:nth-of-type(1) {
     width: 60%; }
-  /* line 1145, ../sass/bbf-style.scss */
+  /* line 1147, ../sass/bbf-style.scss */
   .app-info-list2 li:nth-of-type(2) {
     width: 90%; }
-  /* line 1148, ../sass/bbf-style.scss */
+  /* line 1150, ../sass/bbf-style.scss */
   .app-info-list2 li:nth-of-type(3) {
     width: 95%; }
-  /* line 1151, ../sass/bbf-style.scss */
+  /* line 1153, ../sass/bbf-style.scss */
   .app-info-list2 li:nth-of-type(4) {
     width: 100%; }
 
-/* line 1156, ../sass/bbf-style.scss */
+/* line 1158, ../sass/bbf-style.scss */
 .succeed-get-present {
   padding: 30px 0;
   margin-top: -180px; }
-  /* line 1159, ../sass/bbf-style.scss */
+  /* line 1161, ../sass/bbf-style.scss */
   .succeed-get-present p {
     margin-bottom: 0; }
-  /* line 1162, ../sass/bbf-style.scss */
+  /* line 1164, ../sass/bbf-style.scss */
   .succeed-get-present .succeed-friend-btn2 {
     margin-top: 60px;
     width: 50%; }
 
-/* line 1167, ../sass/bbf-style.scss */
+/* line 1169, ../sass/bbf-style.scss */
 .bag-pic {
   margin: 0 auto;
   width: 110px;
   height: 144px; }
 
-/*@ sourceMappingURL=bbf-style.css.map */
+/*# sourceMappingURL=bbf-style.css.map */

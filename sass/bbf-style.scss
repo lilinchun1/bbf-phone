@@ -1078,9 +1078,11 @@ input[type="checkbox"]:checked {
   text-indent: 1em;
   font-size: 1.4em;
   display: block;
+  color: #ffffff;
+
 }
 .yes{
-  background:  image-url("checked.png") 90% 50% no-repeat;
+  background: #000  image-url("checked.png") 90% 50% no-repeat;
   background-size: 8%;
 }
 .register-phone-btn{
