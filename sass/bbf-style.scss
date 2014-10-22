@@ -659,7 +659,7 @@ li {
     .info2-right-btn {
       margin-top: 18px;
       width: 44.6875%;
-      height: 36px;
+      height: 40px;
       font-size: 1.5em;
       @extend %btns;
     }
@@ -874,7 +874,7 @@ input[type="checkbox"]:checked {
           height: 72px;
           display: block;
           color: #b9b9b9;
-          font-size: 13px;
+          font-size: 1.4em;
         }
         &:nth-of-type(1){
           background: image-url('logo-1.png') 15px 50% no-repeat;
@@ -1127,6 +1127,10 @@ input[type="checkbox"]:checked {
 }
 .register-two-btn{
   margin-top: 0;
+    .info2-left-btn,
+    .info2-right-btn{
+      margin-top: 38px;
+    }
 }
 .address-succeed {
   height: 132px;
@@ -1171,4 +1175,15 @@ input[type="checkbox"]:checked {
   width: 110px;
   height: 144px;
 
+}
+
+
+input::-webkit-input-placeholder {
+  color: #525357;
+}
+input:-moz-placeholder {
+  color: #525357;
+}
+.mgt60{
+  margin-top: 50px;
 }
