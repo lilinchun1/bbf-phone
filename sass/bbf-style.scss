@@ -339,6 +339,9 @@ li {
   margin: 0 auto;
   width: 93.75%;
   overflow: hidden;
+    h2{
+      font-size: 1.6em;
+    }
     p{
       margin-bottom: 15px;
       color: $font-normal2;
@@ -349,6 +352,7 @@ li {
   width: 90%;
   display: inline-block;}
 .count{
+  margin-top: 8px;
   margin-bottom: 24px;
   height: 80px;
   border-radius: 5px;
@@ -487,7 +491,8 @@ li {
         }
     }
     .w80p{
-      width: 80%;}
+      width: 95%;
+    }
 }
 .address-wrap{
   @extend %wrap;
