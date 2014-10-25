@@ -1291,4 +1291,9 @@ input:-moz-placeholder {
     .my-fund-list li i {
       color: #ed4985; }
 
+/* line 1359, ../sass/bbf-style.scss */
+.my-fund-wrap {
+  width: 100px;
+  overflow: hidden; }
+
 /*@ sourceMappingURL=bbf-style.css.map */
