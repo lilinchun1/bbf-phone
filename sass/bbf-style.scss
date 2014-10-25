@@ -1191,3 +1191,28 @@ input:-moz-placeholder {
 .mgt60{
   margin-top: 50px;
 }
+
+.my-fund-wrap{
+  @extend %wrap;
+    h1{
+      padding-top: 135px;
+      text-align: center;
+      font-size: 2.4em;
+      color: #ffffff;
+    }
+  h2{
+    margin-top: 10px;
+    font-size: 1.4em;
+    text-align: center;
+    color: #525357;
+  }
+  .my-fund-btn{
+    margin: 120px auto;
+    width: 50%;
+    height: 36px;
+    @extend %btns;
+    font-size: 1.6em;
+    display: block;
+  }
+
+}
