@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* line 17, ../sass/bbf-style.scss */
-.appointment-btn-wrap, .read-more-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap, .register-wrap, .my-fund-none-wrap, .my-fund-list-wrap {
+.appointment-btn-wrap, .read-more-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap, .register-wrap, .my-fund-none-wrap, .my-fund-list-wrap, .invete-friends-wrap {
   margin: 0 auto;
   width: 90%;
   overflow: hidden; }
@@ -1337,5 +1337,65 @@ input:-moz-placeholder {
       .my-fund-list2 li .my-fund-btns .my-fund-btn-left {
         border-color: #525357;
         color: #525357; }
+
+/* line 1406, ../sass/bbf-style.scss */
+.gift-number-none {
+  opacity: .15; }
+
+/* line 1410, ../sass/bbf-style.scss */
+.invete-friends-wrap {
+  padding-top: 64px; }
+  /* line 1413, ../sass/bbf-style.scss */
+  .invete-friends-wrap h1 {
+    border-bottom: 1px solid #3c3d40;
+    height: 78px;
+    line-height: 78px;
+    font-size: 1.4em;
+    text-indent: 1em; }
+    /* line 1419, ../sass/bbf-style.scss */
+    .invete-friends-wrap h1 b {
+      padding-left: 12px;
+      font-size: 2.143em;
+      color: #ffffff; }
+
+/* line 1426, ../sass/bbf-style.scss */
+.invete-friends-tt {
+  margin-top: 24px;
+  width: 80%;
+  height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #622a41;
+  text-indent: 1em; }
+
+/* line 1435, ../sass/bbf-style.scss */
+.invete-friends-con {
+  margin-top: 28px;
+  padding: 20px;
+  position: relative;
+  background: #fff;
+  font-size: 1.4em;
+  color: #000;
+  border: 2px solid #464646; }
+  /* line 1443, ../sass/bbf-style.scss */
+  .invete-friends-con:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #464646; }
+  /* line 1453, ../sass/bbf-style.scss */
+  .invete-friends-con:after {
+    content: "";
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #fff; }
 
 /*# sourceMappingURL=bbf-style.css.map */

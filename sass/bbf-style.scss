@@ -1402,3 +1402,62 @@ input:-moz-placeholder {
     }
   }
 }
+
+.gift-number-none{
+  opacity: .15;
+}
+
+.invete-friends-wrap{
+  padding-top: 64px;
+  @extend %wrap;
+  h1{
+    border-bottom: 1px solid $bds;
+    height: 78px;
+    line-height: 78px;
+    font-size: 1.4em;
+    text-indent: 1em;
+      b{
+        padding-left: 12px;
+        font-size: 2.143em;
+        color: #ffffff;
+      }
+  }
+}
+.invete-friends-tt{
+  margin-top: 24px;
+  width: 80%;
+  height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  background: #622a41;
+  text-indent: 1em;
+}
+.invete-friends-con {
+  margin-top: 28px;
+  padding: 20px;
+  position: relative;
+  background: #fff;
+  font-size: 1.4em;
+  color: #000;
+  border: 2px solid #464646;
+  &:before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #464646;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: -22px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+  }
+}
