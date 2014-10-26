@@ -1357,6 +1357,48 @@ input:-moz-placeholder {
   }
 }
 .my-fund-wrap{
-  width: 100px;
+  width: 100%;
   overflow: hidden;
+}
+
+.my-fund-list2{
+  padding: 60px 0;
+  li{
+    position: relative;
+    padding: 48px 5% 16px;
+    border-bottom: 1px solid $bds;
+    overflow: hidden;
+    h2 {
+      font-size: 1.4em;
+      color: #ffffff;
+    }
+    em{
+      font-size: 1.4em;
+      color: $font-in;
+    }
+    i{
+      position: absolute;
+      right: 0;
+      top: 40px;
+      width: 30%;
+      font-size: 3em;
+      color: #ffffff;
+    }
+    .my-fund-btns{
+      margin-top: 40px;
+      overflow: hidden;
+      .my-fund-btn-left,
+      .my-fund-btn-right{
+        float: right;
+        margin-left: 15px;
+        height: 30px;
+        width: 32.5%;
+        @extend %btns;
+      }
+      .my-fund-btn-left{
+        border-color: $font-in;
+        color: $font-in;
+      }
+    }
+  }
 }

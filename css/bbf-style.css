@@ -18,7 +18,8 @@
 .address-btn, .wx-btn,
 .zfb-btn, .app-info2-btns .info2-left-btn,
 .app-info2-btns .info2-right-btn, .succeed-friend-btn1,
-.succeed-friend-btn2, .login-btn, .menu-login .menu-login-btn, .pay-btn, .register-phone-btn, .my-fund-none-wrap .my-fund-btn {
+.succeed-friend-btn2, .login-btn, .menu-login .menu-login-btn, .pay-btn, .register-phone-btn, .my-fund-none-wrap .my-fund-btn, .my-fund-list2 li .my-fund-btns .my-fund-btn-left,
+.my-fund-list2 li .my-fund-btns .my-fund-btn-right {
   border: 2px solid #fff;
   border-radius: 30px;
   color: #ffffff;
@@ -63,14 +64,14 @@ html {
 /* line 75, ../sass/bbf-style.scss */
 body {
   line-height: 1.5;
-  color: #999999;
+  color: #999;
   height: 100%;
   background: #181a1d;
   -webkit-overflow-scrolling: touch; }
 
 /* line 83, ../sass/bbf-style.scss */
 a {
-  color: #999999;
+  color: #999;
   text-decoration: none; }
 
 /* line 88, ../sass/bbf-style.scss */
@@ -219,7 +220,7 @@ li {
   height: 40px;
   line-height: 40px;
   font-size: 1.4em;
-  color: gainsboro;
+  color: #dcdcdc;
   text-indent: 20px;
   background: url(../img/btn-down.png) center center no-repeat;
   background-size: 5%; }
@@ -317,7 +318,7 @@ li {
 /* line 337, ../sass/bbf-style.scss */
 .read-more {
   margin-bottom: 20px;
-  color: gainsboro;
+  color: #dcdcdc;
   cursor: pointer;
   display: block; }
 
@@ -355,7 +356,7 @@ li {
   /* line 374, ../sass/bbf-style.scss */
   .pay-select-number-wrap p {
     margin-bottom: 15px;
-    color: #666666;
+    color: #666;
     font-size: 1.4em; }
 
 /* line 381, ../sass/bbf-style.scss */
@@ -394,7 +395,7 @@ li {
     line-height: 39px;
     text-align: center;
     font-size: 3em;
-    color: gainsboro;
+    color: #dcdcdc;
     background: #292a2c; }
   /* line 418, ../sass/bbf-style.scss */
   .count .addition {
@@ -429,7 +430,7 @@ li {
   line-height: 76px;
   font-size: 8.2em;
   color: #ffffff;
-  background: black url(../img/number-bg.png) 0 0 repeat-x;
+  background: #000 url(../img/number-bg.png) 0 0 repeat-x;
   background-size: 50%;
   letter-spacing: 7px; }
   /* line 455, ../sass/bbf-style.scss */
@@ -449,7 +450,7 @@ li {
   text-align: center;
   font-size: 3em;
   font-weight: bold;
-  color: #666666; }
+  color: #666; }
 
 /* line 475, ../sass/bbf-style.scss */
 .select-wrap {
@@ -463,7 +464,7 @@ li {
     height: 40px;
     font-size: 1.4em;
     text-indent: 1em;
-    color: #999999;
+    color: #999;
     background: transparent;
     border: 0;
     border-radius: 0;
@@ -842,12 +843,12 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url('../img/unchecked.png?1413718508') 0 0 no-repeat;
+  background: url('../img/unchecked.png?1413853053') 0 0 no-repeat;
   background-size: 100%; }
 
 /* line 896, ../sass/bbf-style.scss */
 input[type="checkbox"]:checked {
-  background: url('../img/checked.png?1413718507') 0 0 no-repeat;
+  background: url('../img/checked.png?1413853053') 0 0 no-repeat;
   -webkit-background-size: 100%;
   background-size: 100%; }
 
@@ -915,15 +916,15 @@ input[type="checkbox"]:checked {
       font-size: 1.4em; }
     /* line 963, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(1) {
-      background: url('../img/logo-1.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-1.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
     /* line 967, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(2) {
-      background: url('../img/logo-2.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-2.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
     /* line 971, ../sass/bbf-style.scss */
     .menu-list li:nth-of-type(3) {
-      background: url('../img/logo-3.png?1413718507') 15px 50% no-repeat;
+      background: url('../img/logo-3.png?1413853053') 15px 50% no-repeat;
       background-size: 10%; }
 
 /* line 978, ../sass/bbf-style.scss */
@@ -955,7 +956,7 @@ input[type="checkbox"]:checked {
     font-size: 1.4em; }
   /* line 1005, ../sass/bbf-style.scss */
   .logistics-info-wrap time {
-    color: #999999;
+    color: #999;
     display: block; }
 
 /* line 1011, ../sass/bbf-style.scss */
@@ -988,7 +989,7 @@ input[type="checkbox"]:checked {
   /* line 1038, ../sass/bbf-style.scss */
   .gift-item p {
     margin-top: 8px;
-    color: #999999;
+    color: #999;
     font-size: 1.3em; }
   /* line 1044, ../sass/bbf-style.scss */
   .gift-item .right-logo {
@@ -997,7 +998,7 @@ input[type="checkbox"]:checked {
     top: 72px;
     width: 10px;
     height: 16px;
-    background: url('../img/right-logo.png?1413718507') 0 0 no-repeat;
+    background: url('../img/right-logo.png?1413853053') 0 0 no-repeat;
     background-size: 100%; }
 
 /* line 1055, ../sass/bbf-style.scss */
@@ -1128,12 +1129,12 @@ input[type="checkbox"]:checked {
 
 /* line 1188, ../sass/bbf-style.scss */
 .yes {
-  background: black url('../img/checked.png?1413718507') 90% 50% no-repeat;
+  background: #000 url('../img/checked.png?1413853053') 90% 50% no-repeat;
   background-size: 20px auto; }
 
 /* line 1192, ../sass/bbf-style.scss */
 .wrong {
-  background: black url('../img/wrong.png?1414207135') 90% 50% no-repeat;
+  background: #000 url('../img/wrong.png?1414285537') 90% 50% no-repeat;
   background-size: 20px auto;
   border: 1px solid #ed4985; }
 
@@ -1175,7 +1176,7 @@ input[type="checkbox"]:checked {
     color: #ffffff;
     font-size: 1.4em;
     text-indent: 1em;
-    background: #622a41 url('../img/right-logo.png?1413718507') 90% 50% no-repeat;
+    background: #622a41 url('../img/right-logo.png?1413853053') 90% 50% no-repeat;
     background-size: 5%; }
 
 /* line 1241, ../sass/bbf-style.scss */
@@ -1194,7 +1195,7 @@ input[type="checkbox"]:checked {
   color: #ffffff;
   font-size: 2.1em;
   border-bottom: 1px solid #3c3d40;
-  background: url('../img/red-logo.png?1413718507') 5px 14% no-repeat;
+  background: url('../img/red-logo.png?1413853053') 5px 14% no-repeat;
   background-size: 40%; }
 
 /* line 1260, ../sass/bbf-style.scss */
@@ -1293,7 +1294,48 @@ input:-moz-placeholder {
 
 /* line 1359, ../sass/bbf-style.scss */
 .my-fund-wrap {
-  width: 100px;
+  width: 100%;
   overflow: hidden; }
 
-/*@ sourceMappingURL=bbf-style.css.map */
+/* line 1364, ../sass/bbf-style.scss */
+.my-fund-list2 {
+  padding: 60px 0; }
+  /* line 1366, ../sass/bbf-style.scss */
+  .my-fund-list2 li {
+    position: relative;
+    padding: 48px 5% 16px;
+    border-bottom: 1px solid #3c3d40;
+    overflow: hidden; }
+    /* line 1371, ../sass/bbf-style.scss */
+    .my-fund-list2 li h2 {
+      font-size: 1.4em;
+      color: #ffffff; }
+    /* line 1375, ../sass/bbf-style.scss */
+    .my-fund-list2 li em {
+      font-size: 1.4em;
+      color: #525357; }
+    /* line 1379, ../sass/bbf-style.scss */
+    .my-fund-list2 li i {
+      position: absolute;
+      right: 0;
+      top: 40px;
+      width: 30%;
+      font-size: 3em;
+      color: #ffffff; }
+    /* line 1387, ../sass/bbf-style.scss */
+    .my-fund-list2 li .my-fund-btns {
+      margin-top: 40px;
+      overflow: hidden; }
+      /* line 1390, ../sass/bbf-style.scss */
+      .my-fund-list2 li .my-fund-btns .my-fund-btn-left,
+      .my-fund-list2 li .my-fund-btns .my-fund-btn-right {
+        float: right;
+        margin-left: 15px;
+        height: 30px;
+        width: 32.5%; }
+      /* line 1398, ../sass/bbf-style.scss */
+      .my-fund-list2 li .my-fund-btns .my-fund-btn-left {
+        border-color: #525357;
+        color: #525357; }
+
+/*# sourceMappingURL=bbf-style.css.map */
