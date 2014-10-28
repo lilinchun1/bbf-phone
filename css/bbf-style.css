@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* line 17, ../sass/bbf-style.scss */
-.appointment-btn-wrap, .read-more-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap, .register-wrap, .my-fund-none-wrap, .my-fund-list-wrap, .invete-friends-wrap {
+.appointment-btn-wrap, .read-more-wrap, .address-wrap, .app-info-list, .login-srap, .logistics-info-wrap, .gift-item h2, .gift-item p, .gift-info-con-wrap, .register-wrap, .my-fund-none-wrap, .my-fund-list-wrap, .invete-friends-wrap, .discount-info-wrap {
   margin: 0 auto;
   width: 90%;
   overflow: hidden; }
@@ -1397,5 +1397,9 @@ input:-moz-placeholder {
     height: 0;
     border: 12px solid transparent;
     border-bottom: 12px solid #fff; }
+
+/* line 1468, ../sass/bbf-style.scss */
+.discount-info-tt {
+  border-bottom: 1px solid #3c3d40; }
 
 /*# sourceMappingURL=bbf-style.css.map */

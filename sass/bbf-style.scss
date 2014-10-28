@@ -1461,3 +1461,10 @@ input:-moz-placeholder {
     border-bottom: 12px solid #fff;
   }
 }
+
+.discount-info-wrap{
+  @extend %wrap;
+}
+.discount-info-tt{
+  border-bottom: 1px solid $bds;
+}
