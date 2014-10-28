@@ -1466,5 +1466,37 @@ input:-moz-placeholder {
   @extend %wrap;
 }
 .discount-info-tt{
+  padding-top: 60px;
+  padding-bottom: 14px;
   border-bottom: 1px solid $bds;
+  p{
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+  b,em{
+    margin-left: 48px;
+    font-size: 2em;
+  }
+
+}
+.discount-info-con-tt{
+  margin-top: 24px;
+  width: 60%;
+  height: 26px;
+  line-height: 26px;
+  color: #ffffff;
+  font-size: 1.4em;
+  text-indent: 1em;
+  background-color: $bg-color-red;
+}
+.discount-info-btn{
+  margin: 20px auto;
+  width: 60%;
+  height: 36px;
+  background-color: $bg-color-red;
+  font-size: 1.6em;
+  color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  display: block;
 }
