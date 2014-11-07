@@ -1398,11 +1398,11 @@ input:-moz-placeholder {
     border-bottom: 1px solid $bds;
     overflow: hidden;
     h2 {
-      font-size: 1.4em;
+      font-size: 1.6em;
       color: #ffffff;
     }
     em{
-      font-size: 1.4em;
+      font-size: 1.6em;
       color: $font-in;
     }
     i{
@@ -1410,7 +1410,7 @@ input:-moz-placeholder {
       right: 0;
       top: 40px;
       width: 30%;
-      font-size: 3em;
+      font-size: 3.8em;
       color: #ffffff;
     }
     .my-fund-btns{
@@ -1423,6 +1423,7 @@ input:-moz-placeholder {
         height: 30px;
         width: 32.5%;
         @extend %btns;
+        font-size: 1.6em;
       }
       .my-fund-btn-left{
         border-color: $font-in;

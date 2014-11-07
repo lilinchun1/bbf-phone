@@ -1331,11 +1331,11 @@ input:-moz-placeholder {
   overflow: hidden; }
   /* line 1400, ../sass/bbf-style.scss */
   .my-fund-list2 li h2 {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #ffffff; }
   /* line 1404, ../sass/bbf-style.scss */
   .my-fund-list2 li em {
-    font-size: 1.4em;
+    font-size: 1.6em;
     color: #525357; }
   /* line 1408, ../sass/bbf-style.scss */
   .my-fund-list2 li i {
@@ -1343,7 +1343,7 @@ input:-moz-placeholder {
     right: 0;
     top: 40px;
     width: 30%;
-    font-size: 3em;
+    font-size: 3.8em;
     color: #ffffff; }
   /* line 1416, ../sass/bbf-style.scss */
   .my-fund-list2 li .my-fund-btns {
@@ -1355,30 +1355,31 @@ input:-moz-placeholder {
       float: right;
       margin-left: 15px;
       height: 30px;
-      width: 32.5%; }
-    /* line 1427, ../sass/bbf-style.scss */
+      width: 32.5%;
+      font-size: 1.6em; }
+    /* line 1428, ../sass/bbf-style.scss */
     .my-fund-list2 li .my-fund-btns .my-fund-btn-left {
       border-color: #525357;
       color: #525357; }
 
-/* line 1435, ../sass/bbf-style.scss */
+/* line 1436, ../sass/bbf-style.scss */
 .gift-number-none {
   opacity: .15; }
 
-/* line 1442, ../sass/bbf-style.scss */
+/* line 1443, ../sass/bbf-style.scss */
 .invete-friends-wrap h1 {
   border-bottom: 1px solid #3c3d40;
   height: 78px;
   line-height: 78px;
   font-size: 1.4em;
   text-indent: 1em; }
-  /* line 1448, ../sass/bbf-style.scss */
+  /* line 1449, ../sass/bbf-style.scss */
   .invete-friends-wrap h1 b {
     padding-left: 12px;
     font-size: 2.143em;
     color: #ffffff; }
 
-/* line 1455, ../sass/bbf-style.scss */
+/* line 1456, ../sass/bbf-style.scss */
 .invete-friends-tt {
   margin-top: 24px;
   width: 80%;
@@ -1388,7 +1389,7 @@ input:-moz-placeholder {
   background: #622a41;
   text-indent: 1em; }
 
-/* line 1464, ../sass/bbf-style.scss */
+/* line 1465, ../sass/bbf-style.scss */
 .invete-friends-con {
   margin-top: 28px;
   padding: 20px;
@@ -1397,7 +1398,7 @@ input:-moz-placeholder {
   font-size: 1.4em;
   color: #000;
   border: 2px solid #464646; }
-  /* line 1472, ../sass/bbf-style.scss */
+  /* line 1473, ../sass/bbf-style.scss */
   .invete-friends-con:before {
     content: "";
     position: absolute;
@@ -1407,7 +1408,7 @@ input:-moz-placeholder {
     height: 0;
     border: 12px solid transparent;
     border-bottom: 12px solid #464646; }
-  /* line 1482, ../sass/bbf-style.scss */
+  /* line 1483, ../sass/bbf-style.scss */
   .invete-friends-con:after {
     content: "";
     position: absolute;
@@ -1418,21 +1419,21 @@ input:-moz-placeholder {
     border: 12px solid transparent;
     border-bottom: 12px solid #fff; }
 
-/* line 1497, ../sass/bbf-style.scss */
+/* line 1498, ../sass/bbf-style.scss */
 .discount-info-tt {
   padding-top: 20px;
   padding-bottom: 14px;
   border-bottom: 1px solid #3c3d40; }
-  /* line 1501, ../sass/bbf-style.scss */
+  /* line 1502, ../sass/bbf-style.scss */
   .discount-info-tt p {
     color: #ffffff;
     font-size: 1.5em; }
-  /* line 1505, ../sass/bbf-style.scss */
+  /* line 1506, ../sass/bbf-style.scss */
   .discount-info-tt b, .discount-info-tt em {
     margin-left: 48px;
     font-size: 3em; }
 
-/* line 1511, ../sass/bbf-style.scss */
+/* line 1512, ../sass/bbf-style.scss */
 .discount-info-con-tt {
   margin-top: 24px;
   width: 60%;
@@ -1443,7 +1444,7 @@ input:-moz-placeholder {
   text-indent: 1em;
   background-color: #ed4985; }
 
-/* line 1521, ../sass/bbf-style.scss */
+/* line 1522, ../sass/bbf-style.scss */
 .discount-info-btn {
   margin: 20px auto;
   width: 60%;
@@ -1455,44 +1456,44 @@ input:-moz-placeholder {
   border-radius: 30px;
   display: block; }
 
-/* line 1533, ../sass/bbf-style.scss */
+/* line 1534, ../sass/bbf-style.scss */
 .register5 {
   padding-bottom: 60px;
   margin-top: 32px; }
-  /* line 1536, ../sass/bbf-style.scss */
+  /* line 1537, ../sass/bbf-style.scss */
   .register5 .register-input {
     margin: 12px 0; }
-  /* line 1539, ../sass/bbf-style.scss */
+  /* line 1540, ../sass/bbf-style.scss */
   .register5 .register-phone-btn {
     margin-top: 32px; }
 
-/* line 1543, ../sass/bbf-style.scss */
+/* line 1544, ../sass/bbf-style.scss */
 .zhekoujkia {
   padding-left: 10px;
   color: #ffffff; }
 
-/* line 1549, ../sass/bbf-style.scss */
+/* line 1550, ../sass/bbf-style.scss */
 .pay-final .count {
   width: 77%; }
-/* line 1552, ../sass/bbf-style.scss */
+/* line 1553, ../sass/bbf-style.scss */
 .pay-final .count-left {
   width: 100%; }
-/* line 1555, ../sass/bbf-style.scss */
+/* line 1556, ../sass/bbf-style.scss */
 .pay-final .count-left-item-number {
   float: right;
   margin: 0; }
 
-/* line 1560, ../sass/bbf-style.scss */
+/* line 1561, ../sass/bbf-style.scss */
 .login-pic {
   margin-left: 28px; }
 
-/* line 1563, ../sass/bbf-style.scss */
+/* line 1564, ../sass/bbf-style.scss */
 .discount-info-foot {
   position: fixed;
   bottom: 0;
   width: 90%; }
 
-/* line 1568, ../sass/bbf-style.scss */
+/* line 1569, ../sass/bbf-style.scss */
 .pdb95 {
   padding-bottom: 95px; }
 
