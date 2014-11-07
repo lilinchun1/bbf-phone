@@ -905,8 +905,8 @@ input[type="checkbox"]:checked {
     left: 25%; }
   /* line 953, ../sass/bbf-style.scss */
   .menu-list li {
-    height: 70px;
-    line-height: 70px;
+    height: 68px;
+    line-height: 68px;
     text-indent: 50px;
     border: 1px solid #181a1d; }
     /* line 958, ../sass/bbf-style.scss */
