@@ -869,13 +869,13 @@ input[type="checkbox"]:checked {
 /* line 916, ../sass/bbf-style.scss */
 .menu-login {
   position: relative;
-  height: 180px;
+  height: 140px;
   background: #212121;
   overflow: hidden; }
   /* line 921, ../sass/bbf-style.scss */
   .menu-login h2 {
-    margin-top: 20px;
-    font-size: 3em;
+    margin-top: 15px;
+    font-size: 2.5em;
     color: #ffffff;
     text-indent: 23px;
     font-weight: bold; }
@@ -902,11 +902,11 @@ input[type="checkbox"]:checked {
   background: #131517; }
   /* line 950, ../sass/bbf-style.scss */
   .menu-list .menu-list-sjx {
-    left: 20%; }
+    left: 25%; }
   /* line 953, ../sass/bbf-style.scss */
   .menu-list li {
-    height: 72px;
-    line-height: 72px;
+    height: 70px;
+    line-height: 70px;
     text-indent: 50px;
     border: 1px solid #181a1d; }
     /* line 958, ../sass/bbf-style.scss */
@@ -938,18 +938,18 @@ input[type="checkbox"]:checked {
 
 /* line 987, ../sass/bbf-style.scss */
 .login-pic {
-  width: 88px;
-  height: 88px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
   background: #000000;
   overflow: hidden; }
   /* line 993, ../sass/bbf-style.scss */
   .login-pic .login-pic-con {
-    margin: 8px 0 0 8px;
-    width: 66px;
-    height: 66px;
+    margin: 6px 0 0 6px;
+    width: 52px;
+    height: 52px;
     border-radius: 50%;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     overflow: hidden; }
     /* line 1000, ../sass/bbf-style.scss */
     .login-pic .login-pic-con img {
