@@ -1,4 +1,14 @@
 @charset "utf-8";
+
+/*!
+ * Created with IntelliJ IDEA.
+ * User: llcly
+ * contact 45433256@qq.com
+ * Date: 2014/11/07
+ * Time: 13:13
+ * To change this template use File | Settings | File Templates.
+ */
+
 $font-normal: #999;
 $font-normal2: #666;
 $font-tt: #dcdcdc;
@@ -1494,7 +1504,7 @@ input:-moz-placeholder {
   }
   b,em{
     margin-left: 48px;
-    font-size: 2em;
+    font-size: 3em;
   }
 
 }
@@ -1553,6 +1563,7 @@ input:-moz-placeholder {
 .discount-info-foot{
   position: fixed;
   bottom: 0;
+  width: 90%;
 }
 .pdb95{
   padding-bottom: 95px;
